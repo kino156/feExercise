@@ -1,0 +1,122 @@
+body{
+    background: #cccccc;
+}
+#content{
+    width: 1280px;
+    margin: 20px auto;
+    background: #ffffff;
+    box-shadow: 2px 2px 8px #666666;
+}
+header{
+    height: 56px;
+    background: url("../image/task7_logo.gif") no-repeat 58px 13px;
+}
+header p{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 18px;
+    display: inline-block;
+}
+header ul{
+    float: right;
+    font-size: 14px;
+}
+header li{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+    margin-top: 16px;
+
+    height: 36px;
+}
+header ul li:first-child{
+    color: #e74f4c;
+    border-bottom: 4px solid #e74f4c;
+}
+header ul li:last-child{
+    color: #e74f4c;
+    padding-right: 45px;
+}
+#banner{
+    height: 941px;
+    background: url("../image/task7_banner_bg.jpeg") no-repeat;
+    position: relative;
+}
+#banner div{
+    position: absolute;
+    left: 117px;
+    top: 225px;
+}
+#banner div p:first-child{
+    font-size: 60px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+#banner .banner_word{
+    /*font-size: 21px;*/
+    /*color: #ffffff;*/
+    /*padding: 5px 0;*/
+}
+#banner div p:last-child{
+    /*font-size: 30px;*/
+    /*text-align: center;*/
+    /*padding-top: 16px;*/
+    /*color: #ffffff;*/
+    /*width: 330px;*/
+    /*height: 47px;*/
+    /*background: #e7504d;*/
+    /*margin-top: 62px;*/
+}
+#banner ul{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #ffffff;
+}
+#banner ul li{
+    float: left;
+    height: 116px;
+    font-size: 14px;
+    padding-top: 134px;
+}
+#banner ul li:nth-child(1){
+    background: url("../image/task7__banner_title1.gif") no-repeat 138px 46px;
+    /*padding-left: 88px;*/
+}
+#banner ul li:nth-child(2){
+    background: url("../image/task7__banner_title2.gif") no-repeat 138px 46px;
+    /*padding-left: 90px;*/
+}
+#banner ul li:nth-child(3){
+    background: url("../image/task7__banner_title3.gif") no-repeat 138px 46px;
+    /*padding-left: 76px;*/
+}
+#banner ul li:nth-child(4){
+    background: url("../image/task7__banner_title4.gif") no-repeat 138px 46px;
+    /*padding-left: 83px;*/
+}
+#banner li p{
+    width: 154px;
+    text-align: center;
+    color: #aaaaaa;
+    line-height: 18px;
+    border-right: 2px solid #aaaaaa;
+    padding-right: 80px;
+    padding-left: 84px;
+}
+#banner li:last-child p{
+    border-right: none;
+    padding-right: 82px;
+}
+#introduce{
+    background: #ededed;
+    height: 360px;
+    background: url("../image/task7_logo_big.jpeg") no-repeat 594px 90px;
+}
+#introduce p{
+    font-size: 54px;
+    color: #a1a1a1;
+    text-align: center;
+    padding-top: 226px;
+}
