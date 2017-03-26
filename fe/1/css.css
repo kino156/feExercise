@@ -1,0 +1,75 @@
+/* authered by kino156 2017/03/26 */
+
+body {
+    background-color: #5e5e5e;
+
+}
+.multiDropMenu {
+    font-family: Helvetica, Arial, SansSerif;
+    font-size: 1em;
+
+}
+.multiDropMenu a {
+    display: block;
+    color: #555555;
+    background-color: #eeeeee;
+    padding: 0.2em 1em;
+    border-width: 3px;
+    border-color: transparent;
+}
+.multiDropMenu a:hover {
+    color: #ffffff;
+    background-color: #aaa;
+}
+.multiDropMenu a:active {
+    color: #cccccc;
+    background-color: #ffffff;
+}
+.multiDropMenu ul {
+    float: left;
+    background-color: #5e5e5e;
+    /*padding: 3px;*/
+}
+.multiDropMenu li {
+    float: left;
+    position: relative;
+}
+.multiDropMenu li a {
+    display: block;
+    border-right-style: solid;
+    background-clip: padding-box;
+}
+.multiDropMenu ul > li:last-child a {
+    /*border-right-style: none;*/
+}
+
+
+
+/* 二级菜单 */
+.multiDropMenu li ul {
+    width: 9em;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.multiDropMenu li:hover > ul {
+    display: block;
+}
+.multiDropMenu li li {
+    float: none;
+}
+.multiDropMenu li li a {
+    /*border-right-style: none;*/
+    border-top-style: solid;
+}
+
+
+/* 三级菜单 */
+.multiDropMenu li li ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+
