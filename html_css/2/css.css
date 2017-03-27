@@ -1,0 +1,141 @@
+#header{
+    width: 100%;
+    height: 100px;
+    background: url("image/2.jpeg") no-repeat -80px -120px;
+}
+#header ul{
+    float: right;
+}
+#header li{
+    float: left;
+    list-style: disc;
+    padding-right: 25px;
+    font-size: 14px;
+    margin: 30px 20px 0 0;
+    color: #666;
+}
+#header a{
+    color: #666;
+}
+#header a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+#content div.main{
+    width: 90%;
+    min-height: 250px;
+    margin: 20px auto;
+    background: #cbdac5;
+    border-top: 1px solid #7fb295;
+    box-shadow: 2px 2px 3px #a7a7a7;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 30px;
+}
+#content .main h2, #content .main h3{
+    margin: 10px 0;
+}
+#content .main span{
+    margin-right: 10px;
+}
+#content .main p{
+    margin: 10px auto;
+    text-indent: 2em;
+}
+
+#content .title1 img, #content .title2 img{
+    width: 40%;
+    height: 40%;
+}
+#content .title1 a{
+    color: red;
+}
+#content .title1 a:hover{
+    text-decoration: underline;
+    color: #666666;
+}
+
+#content .title3 .photo{
+    width: 300px;
+    height: 210px;
+    border: #91b495 1px solid;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#content .photo img{
+    width: 100%;
+}
+#content .title4 li{
+    margin-left: 30px;
+}
+#content .title4 table, #content .title4 th, #content .title4 td{
+    border: 1px solid #666666;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+#content .title4 thead{
+    background: rgba(42, 48, 48, 0.95);
+    color: #ffffff;
+}
+#content .title4 a{
+    color: darkred;
+}
+#content .title4 a:hover {
+    text-decoration: underline;
+}
+#content .title5 div{
+    margin: 10px 0;
+}
+#content .title5 .side{
+    border-left: 5px solid #666666;
+    padding-left: 10px;
+}
+#content .title5 label{
+    width: 40%;
+    text-align: right;
+    float: left;
+    padding-right: 15px;
+    padding-top: 4px;
+}
+#content .title5 .text{
+    width: 180px;
+    height: 24px;
+    padding-left: 5px;
+    border: 1px solid #666666;
+}
+#content .title5 .check{
+    margin-left: 10px;
+    border: 1px solid #666666;
+}
+#content .title5 .citySelect{
+    width: 185px;
+    height: 28px;
+    border: 1px solid #666666;
+}
+#content .title5 .person{
+    width: 175px;
+    padding: 5px;
+    border: 1px solid #666666;
+}
+#content .title5 button{
+    padding: 5px 15px;
+    background: #1d54c5;
+    color: #ffffff;
+    border: 1px solid #143d8f;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+#footer{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+}
+

@@ -1,0 +1,223 @@
+/* authored by kino156 2017.02 */
+
+body > div {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#topline {
+    width: 100%;
+    height: 40px;
+    min-width: 1000px;
+    background: #fcfcfc;
+    border-top: 3px solid #ff8500;
+    border-bottom: 1px solid #edeef0;
+}
+header {
+    width: 1000px;
+    margin: 0 auto;
+}
+.h_Left {
+
+}
+.h_Left a,.h_right a {
+    display: block;
+    padding: 14px 18px;
+}
+.h_Left a:hover,.h_right a:hover {
+    color: #ff8500;
+    background: #edeef0;
+}
+.h_Left img,.h_right img {
+    padding: 5px 0 0 10px;
+}
+.h_Left li,.h_right li {
+    float: left;
+    position: relative;
+}
+.h_right {
+    float: right;
+}
+.h_Left li ul {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 41px;
+    box-shadow: 3px 3px 5px #ccc;
+}
+.h_Left li:hover > ul{
+     display: block;
+ }
+.h_Left .my_memu li {
+    float: none;
+    border: 1px solid #ff8500;
+    border-top: 0;
+}
+.h_Left .my_memu a {
+    height: 12px;
+    width: 24px;
+    padding: 10px 58px 10px 18px;
+}
+.h_Left .my_memu a:hover {
+    background: #fff5da;
+}
+.h_close a {
+    padding: 0;
+    margin-top: 8px;
+}
+.h_close a:hover {
+    background: none;
+}
+.h_close img {
+    padding: 0;
+}
+
+
+#search {
+    /*width: 1000px;*/
+    /*margin: 0 auto;*/
+    padding-bottom: 15px;
+    background: url("image/search_logo.png") no-repeat 122px 16px;
+    position: relative;
+}
+#search .s_select {
+
+}
+#search div {
+    display: inline;
+}
+#search .s_input {
+    height: 31px;
+    width: 371px;
+    margin: 25px 0 0 254px;
+}
+#search .s_search a {
+    display: inline-block;
+    width: 66px;
+    height: 35px;
+    background: #ff8500;
+    position: absolute;
+    top: 25px;
+    left: 629px;
+}
+#search .s_search img {
+    margin: 8px 0 0 24px;
+}
+#search .s_weather {
+    margin-left: 86px;
+}
+#search .s_weather img {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#search .s_weather span {
+    display: inline-block;
+    position: absolute;
+    top: 33px;
+}
+#search .s_img a {
+    display: inline-block;
+    margin-top: 16px;
+    float: right;
+}
+
+
+#nav {
+    /*width: 1000px;*/
+    /*margin: 0 auto;*/
+    padding-left: 6px;
+}
+#nav > div {
+    float: left;
+    border-right: 1px solid #d2d2d2;
+    line-height: 26px;
+    padding: 0 10px;
+}
+#nav > div:last-child {
+    border: none;
+}
+#nav a {
+    padding: 0 5px;
+    text-align: center;
+}
+#nav a:hover {
+    text-decoration: underline;
+    color: #ff8500;
+}
+
+
+
+#cout_1 >div:first-child {
+    padding: 30px 0 34px;
+}
+#cout_1 .c1_ad1 {
+    padding-bottom: 10px;
+}
+#cout_1 .c1_ad2 {
+    padding-top: 10px;
+}
+#cout_1 .c1_ad1 a {
+    text-align: center;
+    padding: 0 18px;
+}
+#cout_1 .c1_ad2 a {
+    text-align: center;
+    padding: 0 12px;
+}
+
+
+
+
+footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+.f_nav {
+    height: 34px;
+    background: #f7f7f7;
+}
+.f_nav ul {
+    padding-left: 170px;
+}
+.f_nav li {
+    float: left;
+    color: #75839d;
+    padding: 0 12px;
+    margin-top: 10px;
+    border-right: 1px dashed #75839d;
+}
+.f_nav li:last-child {
+    border: none;
+}
+.f_nav a:hover {
+    text-decoration: underline;
+    color: #ff8500;
+}
+.f_copy {
+    height: 24px;
+    text-align: center;
+    padding-top: 16px;
+}
+.f_img img {
+    border: 1px solid #d2d2d2;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 10px;
+}
+.f_link,.f_allow {
+    text-align: center;
+    line-height: 20px;
+}
+.f_link a,.f_allow a,.f_link span {
+    margin-right: 7px;
+}
+.f_link a:hover,.f_allow a:hover {
+    text-decoration: underline;
+    color: #ff8500;
+}
+.f_allow {
+    margin-top: 20px;
+}
+
+
+
