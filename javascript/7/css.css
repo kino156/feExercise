@@ -1,0 +1,11 @@
+#main{
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+#main .show{
+    width: 50px;
+    background: #cc7680;
+    float: left;
+    margin: 0 5px;
+}

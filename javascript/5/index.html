@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>不同维度生成柱状图</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <fieldset id="form-gra-time">
+        <legend>请选择日期粒度：</legend>
+        <label>日<input name="gra-time" value="day" type="radio"></label>
+        <label>周<input name="gra-time" value="week" type="radio"></label>
+        <label>月<input name="gra-time" value="month" type="radio"></label>
+    </fieldset>
+    <fieldset>
+        <legend>请选择查看的城市：</legend>
+        <select id="city-select">
+        </select>
+    </fieldset>
+    <div class="clearfix"></div>
+    <div class="aqi-chart-wrap">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+fieldset{
+    float: left;
+    width: 200px;
+}
+.clearfix{
+    *zoom:1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.aqi-chart-wrap{
+    min-height: 500px;
+    width: 100%;
+    margin: 20px auto;
+    border: 2px solid #cccccc;
+    position: relative;
+}

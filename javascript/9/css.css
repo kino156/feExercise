@@ -1,0 +1,15 @@
+div{
+    border: 1px solid #5a5b5b;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+#btnArea{
+    border: none;
+    margin: 0;
+    padding: 0;
+    /*text-align: center;*/
+}
+#root{
+    margin: 0 10px;
+}
