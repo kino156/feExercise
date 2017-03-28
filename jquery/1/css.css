@@ -1,0 +1,28 @@
+div {
+    padding:5px;
+    text-align:center;
+    background-color:#e5eecc;
+    border:solid 1px #c3c3c3;
+}
+#click1, #click2, #click3 {
+    cursor: pointer;
+}
+#click1 {
+    background-color: #3e8f3e;
+}
+#click2 {
+    margin-top: 10px;
+    background-color: #2aabd2;
+}
+#click3 {
+    background-color: #ff8500;
+}
+#panel1, #panel3 {
+    padding:50px;
+    margin-bottom: 10px;
+    display:none;
+}
+#panel2 {
+    padding:50px;
+    margin-bottom: 10px;
+}

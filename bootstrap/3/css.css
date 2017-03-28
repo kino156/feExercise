@@ -1,0 +1,7 @@
+div {
+    background-color: #dedef8;
+    box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+}
+.color div div {
+    background-color: #ff8500;
+}
