@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鼠标坐标的计算</title>
+    <script src="../../other/jquery/jquery-3.1.0.min.js"></script>
+    <style>
+        #element {
+            background-color: #ccc;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -25px;
+            margin-top: -25px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        鼠标距离div中心的直线距离是:<span id="show"></span>
+    </div>
+    <div id="element"></div>
+    <script>
+        var elem = document.getElementById('element');
+        var show = document.getElementsByTagName('span')[0];
+        function distance(elem, mousex, mousey) {
+            var x = elem.offsetLeft + 25;
+            var y = elem.offsetTop + 25;
+            var xx = Math.pow(x - mousex, 2);
+            var yy = Math.pow(y - mousey, 2);
+            var disPow = xx + yy;
+            var dis = Math.sqrt(disPow);
+            show.innerHTML = dis;
+        }
+        function mouseMove(ev) {
+            if(ev.pageX || ev.pageY){
+                return {x:ev.pageX, y:ev.pageY};
+            }
+            return{
+                x:ev.clientX + document.body.scrollLeft - document.body.clientLeft,
+                y:ev.clientY + document.body.scrollTop - document.body.clientTop
+            };
+        }
+        function move(ev) {
+                var ev = ev||window.event;
+                var mouse = mouseMove(ev);
+                distance(elem, mouse.x, mouse.y);
+        }
+        window.onmousemove = move;
+    </script>
+</body>
+</html>
